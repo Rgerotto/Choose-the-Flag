@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.margin{
+padding: 50px 60px;
+
+}
+ #container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.258);
+}
+/* .card:hover{
+    background-color: blueviolet;
+} */
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+img{
+    max-height: 20%;
+}
+/* img:hover{
+transform: scale(1.7);
+} */
+span{
+    font-size: 1rem;
+}
+.container-popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.695);
+}
+.card-description{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.843);
+    color: white;
+}
+.hidden{
+    display: none;
+}
+#close{
+    position: absolute;
+    left: 870px;
+    top: 260px;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+#close:hover{
+    border: 1px solid rgb(81, 81, 81);
+    color: rgb(81, 81, 81);
+}
