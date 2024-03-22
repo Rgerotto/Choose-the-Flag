@@ -1,4 +1,4 @@
-function fetchingApi(){
+ function fetchingApi(){
 fetch('https://restcountries.com/v3.1/all')
   .then(response => response.json())
   .then(res => {
@@ -52,7 +52,7 @@ fetch('https://restcountries.com/v3.1/all')
 }
 fetchingApi()
 
-fetch('https://restcountries.com/v3.1/all')
+/* fetch('https://restcountries.com/v3.1/all')
 .then(response => response.json())
 .then(res => {
   //console.log(res)
@@ -96,5 +96,4 @@ fetch('https://restcountries.com/v3.1/all')
   })
   //console.log("pop",sortByPopulation)
 })
-.catch(error => console.log("Error",error))
-
+.catch(error => console.log("Error",error)) */
